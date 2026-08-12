@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: #ffffff;
+  
+}
+
+.app-container {
+  display: flex;
+  position: relative;
+}
+
+/* CONTENT AREA */
+.page-wrapper {
+  margin-top: 75px;
+  padding: 20px;
+  width: 100%;
+  transition: margin-left 0.3s ease;
+  background: #f9fafb;
+  min-height: calc(100vh - 64px);
+}
+
+/* SHIFT CONTENT WHEN SIDEBAR OPENS */
+.page-wrapper.sidebar-visible {
+  margin-left: 260px;
+}
+

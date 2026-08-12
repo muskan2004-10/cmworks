@@ -1,0 +1,154 @@
+.navbar {
+  position: fixed;          
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #2f6f6a;
+  color: #fff;
+
+  padding: 0 20px;
+  z-index: 1000;             
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.nav-title {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+/* CENTER SEARCH */
+.navbar-center {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 4px 12px;
+  width: 320px;
+}
+
+.search-icon {
+  color: #777;
+  margin-right: 8px;
+}
+
+.navbar-center input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* RIGHT */
+.navbar-right {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.profile-wrapper {
+  position: relative;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 270px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.profile-header {
+  display: flex;
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-avatar {
+  width: 42px;
+  height: 42px;
+  background: #5faeb8;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.profile-login {
+  font-size: 12px;
+  color: #777;
+}
+
+.profile-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-menu li {
+  padding: 12px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile-menu li:hover {
+  background: #f2f6fa;
+}
+
+.profile-menu .logout {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.profile-dropdown {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.profile-menu li {
+  color: #333333 !important;
+  background-color: #ffffff !important;
+}
+
+.profile-menu li:hover {
+  background-color: #f2f6fa !important;
+}
+
+.profile-menu .logout {
+  color: #d32f2f !important;
+  font-weight: 600;
+}
+

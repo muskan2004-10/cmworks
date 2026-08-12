@@ -1,0 +1,4 @@
+- [x] Add media queries to index.css for responsive design
+  - [x] For screens <= 768px: Change grid layouts to single column
+  - [x] Adjust sidebar width for smaller screens
+  - [x] Ensure no changes to fonts or appearance

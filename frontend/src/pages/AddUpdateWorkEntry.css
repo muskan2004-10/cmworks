@@ -1,0 +1,28 @@
+/* ---------------------------------
+   ADD / UPDATE WORK ENTRY ONLY
+--------------------------------- */
+
+.section-box {
+  border: 1px solid #d7dee4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+
+.section-box-header {
+  background: #f1f4f7;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #37474f;
+  border-bottom: 1px solid #d7dee4;
+}
+
+.section-box-content {
+  padding: 18px 20px;
+}
+
+.section-divider {
+  margin: 24px 0;
+  border-top: 1px solid #e0e0e0;
+}
